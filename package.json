@@ -1,0 +1,29 @@
+{
+  "name": "cem",
+  "version": "0.0.1",
+  "description": "Currency Exchange Monitor",
+  "main": "service.js",
+  "scripts": {
+    "start": "node service.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Max Korinets",
+  "dependencies": {
+    "handlebars": "*",
+    "xml2js": "*",
+    "jsdom": "^3.1.1",
+    "async": "*",
+    "node-schedule": "*",
+    "cli-color": "*",
+    "seneca": "*",
+    "lodash": "*",
+    "validator": "*",
+    "moment": "~2.10.6"
+  },
+  "devDependencies": {
+    "mocha": "~2.2.5",
+    "chai": "~3.2.0"
+  }
+}

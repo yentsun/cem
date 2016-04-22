@@ -1,0 +1,29 @@
+{
+  "RU": {
+    "source": {
+      "name": "cbr.ru",
+      "url": "http://www.cbr.ru/scripts/XML_daily.asp",
+      "parser": "template",
+      "schedule": "0 0 * * *"
+    },
+    "currency": "RUB"
+  },
+  "TH": {
+    "source": {
+      "name": "bot.or.th",
+      "url": "http://www2.bot.or.th/RSS/fxrates/fxrate-all.xml",
+      "parser": "template",
+      "schedule": "0 0 * * *"
+    },
+    "currency": "THB"
+  },
+  "PH": {
+    "source": {
+      "name": "bsp.gov.ph",
+      "url": "http://www.bsp.gov.ph/statistics/sdds/ExchRate.htm",
+      "parser": "bsp_gov_ph",
+      "schedule": "0 0 * * *"
+    },
+    "currency": "PHP"
+  }
+}

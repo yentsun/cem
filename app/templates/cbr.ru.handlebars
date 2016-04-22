@@ -1,0 +1,16 @@
+{{#ValCurs}}
+    {
+    "country": "ru",
+    "date": "{{$.Date}}",
+    "currencies": [
+    {{#each Valute}}
+        {{#if @index}},{{/if}}
+        {
+        "iso_name": "{{#each CharCode}}{{this}}{{/each}}",
+        "rate": "{{#each Value}}{{this}}{{/each}}",
+        "unit": "{{#each Nominal}}{{this}}{{/each}}"
+        }
+    {{/each}}
+    ]
+    }
+{{/ValCurs}}
