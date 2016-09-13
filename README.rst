@@ -108,4 +108,3 @@ Make call to convert currencies from within project code
                 cb(error, result.converted_amount);
             });
 
-jhk
